@@ -12,6 +12,7 @@
 
 nav{
     background-color: #F4F5F7;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.20);
     display:flex;
     margin:10px;
     padding: 10px;
@@ -20,12 +21,13 @@ nav{
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    position: relative;
+    position:sticky;
+    
 }
 
 nav a{
     text-decoration: none;
-    color:#000;
+    color:#2C2C2C;
     margin-right: 10px;
     padding: 10px;
     
@@ -39,7 +41,6 @@ nav a{
     position: absolute;
     right: 10px;
     top: 17px;
-
 }
 
 nav a:hover{
@@ -47,6 +48,10 @@ nav a:hover{
     color:#fff;
     padding: 10px;
     border-radius: 10px;
+}
+
+nav a:active{
+    background-color: #1F4E79;
 }
 
 
