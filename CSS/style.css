@@ -37,7 +37,7 @@ nav a{
 .nav-links{
     display:flex;
     justify-content:space-around;
-    width: 50%;
+    width: 37%;
     align-items:center;
     position: absolute;
     right: 10px;
@@ -49,6 +49,7 @@ nav a:hover{
     color:#fff;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 
 /* HERO SECTION */
@@ -63,30 +64,48 @@ nav a:hover{
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+    padding: 10px;
 }
 
 .hero-section h1{
-    display:inline;
-    width: 45%;
-    padding:40px;
+    font-size: 50px;
+    width: 82%;
+    padding:40px 40px 10px 40px;
+}
+
+.hero-para{    
+    margin-left: 100px;
+    width: 61%;
+    margin-top: 79px;
+}
+
+.hero-para p{
+    width: 51%;
+    padding:0px 40px 40px 40px;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
 }
 
 .hero-image{
-    width: 35%;
+    width: 45%;
     /* background-color:#dddbdb; */
     border-radius: 25px;
-    margin: 20px;
+    margin-right: 100px;
 }
 
 .hero-image:hover{
-    transform: rotate(10deg);
     transition: 0.4s ease-in-out;
+    transform: scale(1.1);
 }
 
 .hero-button{
     position: absolute;
-    top: 52%;
-    left: 5%;
+    top: 75%;
+    left: 10%;
     padding:10px;
     border-radius: 10px;
     border: none;
@@ -104,6 +123,7 @@ nav a:hover{
     color:#ffffff;
     transition: 0.4s ease-in-out;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 
