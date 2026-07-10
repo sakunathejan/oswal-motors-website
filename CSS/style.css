@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 .logo{
@@ -131,7 +132,79 @@ nav a:hover{
     transform: scale(1.1);
 }
 
-/* Featured Section */
+/*Featured Vehicles Section*/
 
+.featured-vehicles{
+    padding: 48px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.featured-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.feature{
+    flex: 1;
+    background-color: #F4F5F7;
+    border: 4px solid rgb(234, 231, 231);
+    padding: 10px;
+    margin-top: 37px;
+    border-radius: 10px;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    transition: all 0.4s ease-in-out;
+}
+
+.feature:hover{
+    flex: 1.3;
+    transform: translateY(-20px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.feature img{
+    width: 96%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.feature h2{
+    font-size: 35px;
+}
+
+.feature h3,
+.feature h4{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.feature-btn{
+    width: 100%;
+    padding: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #163B5C;
+    color: #FFFFFF;
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+
+    transition: 0.3s ease-in-out;
+}
+
+.feature-btn:hover{
+    background-color: #156AC6;
+    box-shadow: 0 2px 8px #1383E6;
+    cursor: pointer;
+}
 
 
