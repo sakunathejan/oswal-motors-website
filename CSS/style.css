@@ -90,6 +90,11 @@ nav a:hover{
     text-align: justify;
 }
 
+.hero-para mark{
+    border-radius: 20px;
+    padding: 5px;
+}
+
 .hero-image{
     width: 45%;
     /* background-color:#dddbdb; */
@@ -98,7 +103,7 @@ nav a:hover{
 }
 
 .hero-image:hover{
-    transition: 0.4s ease-in-out;
+    transition: 0.3s ease-in-out;
     transform: scale(1.1);
 }
 
@@ -121,7 +126,7 @@ nav a:hover{
     box-shadow: 0 2px 8px #1383e6;
     background-color: #156ac6;
     color:#ffffff;
-    transition: 0.4s ease-in-out;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
     transform: scale(1.1);
 }
