@@ -138,6 +138,7 @@ nav a:hover{
     padding: 48px;
     margin: 10px;
     border-radius: 20px;
+    border: 2px solid black;
 }
 
 .featured-card-container{
