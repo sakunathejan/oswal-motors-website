@@ -246,13 +246,14 @@ nav a:hover{
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
 
-.why-icon{
+.why-card img{
     width: 80px;
     height: 80px;
+    object-fit: contain;
     transition: 0.3s ease-in-out;
 }
 
-.why-card:hover .why-icon{
+.why-card:hover img{
     transform: scale(1.15);
 }
 
