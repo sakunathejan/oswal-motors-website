@@ -336,13 +336,14 @@ footer{
 }
 
 .vehicle-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 25px;
     margin: 20px;
 }
 
 .vehicle-card{
+    width: calc(33.33% - 17px);
     background-color: #F4F5F7;
     border-radius: 15px;
     padding: 15px;
