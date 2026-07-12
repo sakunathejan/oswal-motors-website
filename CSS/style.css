@@ -208,4 +208,476 @@ nav a:hover{
     cursor: pointer;
 }
 
+/* WHY CHOOSE SECTION */
+
+.why{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #F4F5F7;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.why h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #163B5C;
+}
+
+.why-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.why-card{
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: 0.3s ease-in-out;
+}
+
+.why-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.why-card h2{
+    font-size: 22px;
+    margin: 15px 0;
+    color: #163B5C;
+}
+
+.why-card p{
+    font-size: 16px;
+    color: #555;
+    font-weight: 300;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #163B5C;
+    color: #FFFFFF;
+    font-family: "Outfit", sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 40px 30px 20px 30px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-section{
+    flex: 1;
+}
+
+.footer-section h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.footer-section p{
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+
+.footer-section a{
+    display: block;
+    text-decoration: none;
+    color: #CCCCCC;
+    margin-bottom: 8px;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-section a:hover{
+    color: #FFFFFF;
+    transform: translateX(5px);
+}
+
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* VEHICLES PAGE */
+
+.vehicles-page h1{
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+    color: #163B5C;
+}
+
+.vehicle-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 20px;
+}
+
+.vehicle-card{
+    background-color: #F4F5F7;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    font-family: "Outfit", sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.vehicle-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.vehicle-card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.vehicle-card h2{
+    font-size: 22px;
+    color: #2C2C2C;
+    margin-bottom: 5px;
+}
+
+.vehicle-card h3{
+    font-size: 20px;
+    color: #163B5C;
+    margin-bottom: 10px;
+}
+
+.vehicle-card p{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+/* ABOUT PAGE */
+
+.about-section{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgb(232, 238, 238);
+    font-family: "Outfit", sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.about-section h1{
+    font-size: 40px;
+    color: #163B5C;
+    margin-bottom: 20px;
+}
+
+.about-section p{
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about-grid{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.about-card{
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: 0.3s ease-in-out;
+}
+
+.about-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.about-card h2{
+    font-size: 24px;
+    color: #163B5C;
+    margin-bottom: 15px;
+}
+
+.about-card p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* FINANCING PAGE */
+
+.financing-section{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgb(232, 238, 238);
+    font-family: "Outfit", sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.financing-section h1{
+    font-size: 40px;
+    color: #163B5C;
+    margin-bottom: 15px;
+}
+
+.financing-section > p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.finance-options{
+    display: flex;
+    gap: 25px;
+}
+
+.finance-card{
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: 0.3s ease-in-out;
+}
+
+.finance-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.finance-card h2{
+    font-size: 24px;
+    color: #163B5C;
+    margin-bottom: 15px;
+}
+
+.finance-card p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.finance-card ul{
+    list-style: none;
+    padding: 0;
+}
+
+.finance-card ul li{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 8px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.finance-card ul li::before{
+    content: ">";
+    position: absolute;
+    left: 0;
+    color: #163B5C;
+    font-weight: 700;
+}
+
+.cta-box{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #163B5C;
+    color: #FFFFFF;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.cta-box h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cta-box p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.cta-btn{
+    padding: 12px 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.cta-btn:hover{
+    background-color: #FFFFFF;
+    color: #163B5C;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* TRADE IN PAGE */
+
+.tradein-section{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgb(232, 238, 238);
+    font-family: "Outfit", sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.tradein-section h1{
+    font-size: 40px;
+    color: #163B5C;
+    margin-bottom: 15px;
+}
+
+.tradein-section > p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.trade-steps{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.trade-step{
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.trade-step:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.trade-step h2{
+    font-size: 30px;
+    color: #163B5C;
+    margin-bottom: 10px;
+}
+
+.trade-step h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.trade-step p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.trade-form{
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.trade-form h2{
+    font-size: 24px;
+    color: #163B5C;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #2C2C2C;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #E0E0E0;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+    border-color: #163B5C;
+    outline: none;
+    box-shadow: 0 0 8px rgba(22, 59, 92, 0.2);
+}
+
+.form-group textarea{
+    height: 100px;
+    resize: vertical;
+}
+
+.submit-btn{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #163B5C;
+    color: #FFFFFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.submit-btn:hover{
+    background-color: #156AC6;
+    box-shadow: 0 2px 8px #1383E6;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.page-title{
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+    color: #163B5C;
+}
+
 
